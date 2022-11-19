@@ -1,0 +1,57 @@
+.App {
+  text-align: center;
+}
+
+.notesform {
+  padding: 50px;
+}
+.notesList {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 180px);
+  height: 100%;
+  grid-gap: 1rem;
+  margin: auto;
+  width: 60%;
+}
+
+.note {
+  background-color: lightblue;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid lightgray;
+  text-align: left;
+}
+
+.modalnote {
+  margin-bottom: 20px;
+}
+.dateAndButton {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.addNoteButton {
+  width: 100px;
+  height: 30px;
+  background-color: lightblue;
+  border-radius: 3px;
+  border: 1px solid gray;
+}
+
+.deleteNoteButton {
+  width: 20px;
+  height: 20px;
+  padding: 0;
+  border-radius: 3px;
+  border: 1px solid gray;
+}
+
+button:hover {
+  background-color: lightgray;
+  color: white;
+}
+
+.titleNote {
+  font-weight: bolder;
+}
